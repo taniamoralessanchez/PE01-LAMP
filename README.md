@@ -16,19 +16,7 @@ El entorno se levanta con un solo comando: **`vagrant up`**.
 
 ## 🏗️ Arquitectura del sistema
 
-PE01-LAMP/
- ├── Vagrantfile
- ├── README.md
- ├── scripts/
- │    ├── provision.sh
- │    ├── install-apache.sh
- │    ├── install-mysql.sh
- │    └── install-php.sh
- ├── vhost/
- │    └── lamp.conf
- ├── www/
- │    ├── index.php
- │    └── info.php
+PE01-LAMP/ ├── Vagrantfile ├── README.md ├── scripts/ │   ├── provision.sh │   ├── install-apache.sh │   ├── install-mysql.sh │   └── install-php.sh ├── vhost/ │   └── lamp.conf └── www/ ├── index.php └── info.ph
 
 
 ---
@@ -103,4 +91,22 @@ Durante el provisioning se crea automáticamente la base de datos y el usuario n
 ### Probar la conexión desde la VM
 
 vagrant ssh -c "mysql -u lamp_user -plamp_pass lamp_db -e 'SELECT 1;'"
+
+## 📸 Capturas de pantalla
+
+A continuación se muestran las capturas que verifican el correcto funcionamiento del entorno LAMP.
+
+### 🖥️ 1. Página principal funcionando
+Esta captura muestra que Apache sirve correctamente el archivo `index.php`.
+
+![Página principal](screenshots/web.png)
+
+---
+
+### 🧩 2. Información completa de PHP (phpinfo)
+Demuestra que PHP está instalado, cargado en Apache y con las extensiones requeridas.
+
+![phpinfo](screenshots/phpinfo.png)
+
+---
 
