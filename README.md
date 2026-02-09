@@ -24,11 +24,10 @@ PE01-LAMP/
 │   ├── install-apache.sh
 │   ├── install-mysql.sh
 │   └── install-php.sh
-├── vhost/
-│   └── lamp.conf
 └── www/
     ├── index.php
     └── info.php
+
 
 
 ---
