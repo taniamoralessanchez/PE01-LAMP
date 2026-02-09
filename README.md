@@ -16,19 +16,19 @@ El entorno se levanta con un solo comando: **`vagrant up`**.
 
 ## 🏗️ Arquitectura del sistema
 
-📁 PE01-LAMP
-├── 📄 Vagrantfile
-├── 📄 README.md
-├── 📁 scripts
-│   ├── ⚙️ provision.sh
-│   ├── ⚙️ install-apache.sh
-│   ├── ⚙️ install-mysql.sh
-│   └── ⚙️ install-php.sh
-├── 📁 vhost
-│   └── 📄 lamp.conf
-└── 📁 www
-├── 🧩 index.php
-└── 🧩 info.ph
+PE01-LAMP/
+├── Vagrantfile
+├── README.md
+├── scripts/
+│   ├── provision.sh
+│   ├── install-apache.sh
+│   ├── install-mysql.sh
+│   └── install-php.sh
+├── vhost/
+│   └── lamp.conf
+└── www/
+    ├── index.php
+    └── info.php
 
 
 ---
