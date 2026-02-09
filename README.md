@@ -16,6 +16,7 @@ El entorno se levanta con un solo comando: **`vagrant up`**.
 
 ## 🏗️ Arquitectura del sistema
 
+
 PE01-LAMP/
 ├── Vagrantfile
 ├── README.md
